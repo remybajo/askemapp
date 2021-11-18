@@ -5,6 +5,12 @@
   "scripts": {
     "start": "node ./bin/www",
     "heroku-postbuild": "cd reactapp && npm install && npm run build"
+
+
+  },
+  "engines": {
+    "node": "0.8.8",
+    "npm": "1.1.65"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
