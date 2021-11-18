@@ -204,7 +204,7 @@ res.json({publication, publicationVote, myArticles, result})
 
 
 
-// pour récupérer les infos de la publication
+// pour récupérer les infos des publication
 router.get('/allVotes', async function(req, res, next){
   var result = false;
     var allVotes = await voteModel.find()
