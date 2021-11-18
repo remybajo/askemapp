@@ -9,7 +9,7 @@ import Plot from 'react-plotly.js';
 import "./publication.css";
 import SideBarDroite from "./Components/SideBarDroite";
 import Header from "./Components/Header";
-import Commentaires from "./commentaires"
+import Commentaires from "./Components/commentaires"
 
 function Publication(props) {
   const { Footer,  Content } = Layout;

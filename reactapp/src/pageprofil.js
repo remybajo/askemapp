@@ -25,8 +25,8 @@ import React, { useState, useEffect } from "react";
 import Header from "./Components/Header";
 
 
-const {  Content, Footer, Sider } = Layout;
-const { SubMenu } = Menu;
+const {  Content} = Layout;
+
 const { TabPane } = Tabs;
 
 

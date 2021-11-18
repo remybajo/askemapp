@@ -1,6 +1,10 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
+
+
+
+
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
@@ -29,6 +33,7 @@ app.use('/publications', publicationsRouter);
 app.use('/votes', votesRouter);
 app.use('/comments', commentsRouter);
 
+app.use(express.static(path.join(__dirname, 'reactapp/build')));
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
